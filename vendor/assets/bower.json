@@ -5,6 +5,10 @@
     "angular-route": "latest",
     "angular-resource": "latest",
     "angular-mocks": "latest",
+    "angular-flash": "latest",
     "bootstrap-sass-official": "latest"
+  },
+  "resolutions": {
+    "angular": "1.5.5"
   }
 }
