@@ -11,7 +11,9 @@ RSpec.describe RecipesController, type: :controller do
 end
 
 RSpec.describe RecipesController do
-	render_views
+
+  render_views
+
   describe "index" do
     before do
       Recipe.create!(name: 'Baked Potato w/ Cheese')
@@ -51,5 +53,5 @@ RSpec.describe RecipesController do
       end
     end
 
-  end  
+  end
 end

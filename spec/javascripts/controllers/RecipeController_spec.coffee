@@ -1,6 +1,7 @@
 describe "RecipeController", ->
   scope        = null
   ctrl         = null
+  location     = null
   routeParams  = null
   httpBackend  = null
   flash        = null
@@ -14,7 +15,7 @@ describe "RecipeController", ->
   setupController =(recipeExists=true)->
     inject(($location, $routeParams, $rootScope, $httpBackend, $controller, _flash_)->
       scope       = $rootScope.$new()
-      # location    = $location
+      location    = $location
       httpBackend = $httpBackend
       routeParams = $routeParams
       routeParams.recipeId = recipeId
