@@ -42,5 +42,4 @@ controllers.controller("RecipeController", [ '$scope', '$routeParams', '$resourc
     $scope.delete = ->
       $scope.recipe.$delete()
       $scope.back()
-
 ])
